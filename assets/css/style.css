@@ -28,11 +28,11 @@ header h1 {
 /*Header en Iphone 5 320px*/
 @media screen and (min-width: 320px) {
     h1.display-1 {
-      font-size: 300%;
-      font-weight: 700;
-      padding-top: 1em;
+        font-size: 300%;
+        font-weight: 700;
+        padding-top: 1em;
     }
-  }
+}
 
 /*Navbar inline en Iphone 5 320px*/
 @media screen and (min-width: 320px) {
@@ -49,7 +49,14 @@ header h1 {
 }
 
 /*Tamaño del lógo de suricata en otras resoluciones*/
-@media (min-width: 321px) {
+@media (min-width: 576px) {
+    nav img {
+        width: 55%
+    }
+}
+
+/*Tamaño del lógo de suricata en otras resoluciones*/
+@media (min-width: 768px) {
     nav img {
         width: 35%
     }
@@ -63,7 +70,7 @@ header h1 {
 }
 
 /*Muestra la sección de íconos en otras resoluciones*/
-@media (min-width: 321px) {
+@media (min-width: 768px) {
     .icon-section {
         display: inline;
     }
